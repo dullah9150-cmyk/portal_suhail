@@ -23,7 +23,7 @@ const certs = [
     link: 'https://freecodecamp.org/certification',
   },
   {
-    title: 'Responsive Web Design',
+    title: 'Responsive Web Design ',
     issuer: 'freeCodeCamp',
     date: 'November 2023',
     credentialId: 'FCC-rwd-2023',
