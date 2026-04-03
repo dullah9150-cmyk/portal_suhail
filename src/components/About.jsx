@@ -29,7 +29,7 @@ export default function About() {
               />
               <div className="about-photo-badge">
                 <span>2+</span>
-                <small>Years of Experience</small>
+                <small>Years of Experience An Eagerly waiting for new oppportunity</small>
               </div>
               <div className="about-photo-deco" />
             </div>
