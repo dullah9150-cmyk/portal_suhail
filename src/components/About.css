@@ -1,0 +1,143 @@
+.about-section {
+  background: var(--bg-secondary);
+}
+
+.about-grid {
+  display: grid;
+  grid-template-columns: 1fr 1.2fr;
+  gap: 80px;
+  align-items: center;
+}
+
+/* Left */
+.about-photo-wrap {
+  position: relative;
+  display: inline-block;
+}
+
+.about-photo {
+  width: 100%;
+  max-width: 380px;
+  border-radius: 24px;
+  display: block;
+  position: relative;
+  z-index: 1;
+  box-shadow: var(--shadow);
+}
+
+.about-photo-deco {
+  position: absolute;
+  top: 20px;
+  left: 20px;
+  right: -20px;
+  bottom: -20px;
+  border: 2px solid var(--accent);
+  border-radius: 24px;
+  z-index: 0;
+  opacity: 0.3;
+  transition: opacity 0.3s;
+}
+
+.about-photo-wrap:hover .about-photo-deco {
+  opacity: 0.6;
+}
+
+.about-photo-badge {
+  position: absolute;
+  bottom: 24px;
+  right: -20px;
+  background: var(--accent-gradient);
+  color: white;
+  border-radius: 16px;
+  padding: 12px 18px;
+  text-align: center;
+  z-index: 2;
+  box-shadow: 0 8px 24px rgba(232,69,69,0.4);
+}
+
+.about-photo-badge span {
+  display: block;
+  font-family: 'Syne', sans-serif;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1;
+}
+
+.about-photo-badge small {
+  display: block;
+  font-size: 11px;
+  opacity: 0.9;
+  white-space: nowrap;
+  margin-top: 2px;
+}
+
+/* Right */
+.about-text {
+  color: var(--text-muted);
+  line-height: 1.8;
+  margin-bottom: 16px;
+  font-size: 1rem;
+}
+
+.about-text strong {
+  color: var(--accent);
+}
+
+.about-highlights {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 12px;
+  margin-top: 8px;
+}
+
+.highlight-card .ant-card-body {
+  display: flex;
+  align-items: flex-start;
+  gap: 12px;
+  padding: 16px !important;
+}
+
+.highlight-icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 36px;
+  height: 36px;
+  min-width: 36px;
+  background: rgba(232,69,69,0.1);
+  border-radius: 10px;
+  color: var(--accent);
+  font-size: 18px;
+  margin-top: 2px;
+}
+
+body.dark .highlight-icon {
+  background: rgba(255,107,107,0.12);
+}
+
+.highlight-title {
+  font-family: 'Syne', sans-serif;
+  font-size: 14px;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 3px;
+}
+
+.highlight-desc {
+  font-size: 12px;
+  color: var(--text-muted);
+  line-height: 1.5;
+}
+
+@media (max-width: 900px) {
+  .about-grid {
+    grid-template-columns: 1fr;
+    gap: 50px;
+  }
+  .about-photo-wrap { max-width: 320px; margin: 0 auto; }
+  .about-photo { max-width: 100%; }
+}
+
+@media (max-width: 480px) {
+  .about-highlights { grid-template-columns: 1fr; }
+}

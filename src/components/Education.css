@@ -1,0 +1,94 @@
+.education-section {
+  background: var(--bg-secondary);
+}
+
+.education-timeline {
+  max-width: 800px;
+}
+
+.edu-dot {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 42px;
+  height: 42px;
+  border-radius: 50%;
+  background: var(--accent-gradient);
+  color: white;
+  font-size: 18px;
+  box-shadow: 0 4px 16px rgba(232,69,69,0.35);
+}
+
+/* Override ANT Timeline colors */
+.ant-timeline-item-tail {
+  border-inline-start: 2px dashed var(--border-color) !important;
+}
+
+.edu-card .ant-card-body {
+  padding: 24px !important;
+}
+
+.edu-card-inner {
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+}
+
+.edu-top {
+  display: flex;
+  align-items: flex-start;
+  justify-content: space-between;
+  gap: 12px;
+  flex-wrap: wrap;
+}
+
+.edu-degree {
+  font-size: 1.15rem;
+  font-weight: 700;
+  color: var(--text-color);
+  margin-bottom: 4px;
+}
+
+.edu-institution {
+  font-size: 15px;
+  font-weight: 500;
+  color: var(--accent);
+}
+
+.edu-badge {
+  background: var(--accent-gradient);
+  color: white;
+  font-size: 11px;
+  font-weight: 700;
+  padding: 4px 12px;
+  border-radius: 100px;
+  white-space: nowrap;
+  letter-spacing: 0.05em;
+  flex-shrink: 0;
+}
+
+.edu-meta {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.edu-meta-item {
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  font-size: 13px;
+  color: var(--text-muted);
+}
+
+.edu-desc {
+  font-size: 14px;
+  color: var(--text-muted);
+  line-height: 1.7;
+  margin: 0;
+}
+
+@media (max-width: 640px) {
+  .education-timeline { max-width: 100%; }
+  .edu-top { flex-direction: column; }
+}
