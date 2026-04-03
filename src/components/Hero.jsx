@@ -67,7 +67,7 @@ export default function Hero() {
 
         <div className="hero-text">
           <div className="hero-greeting">Hello, I'm</div>
-          <h1 className="hero-name">Mohamed Suhail</h1>
+          <h1 className="hero-name">Mohamed Suhail and abdullah</h1>
           <div className="hero-role-wrap">
             <span className="hero-role-prefix">I'm a </span>
             <span className="hero-role" ref={roleRef}></span>

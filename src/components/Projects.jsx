@@ -16,9 +16,9 @@ const projects = [
     github: 'https://github.com/alexmorgan/taskflow',
   },
   {
-    title: 'ShopLens — E-Commerce UI',
+    title: 'ShopLens — E-Commerce UI and product listing',
     desc: 'A sleek, modern e-commerce interface with product filtering, cart management, and a fully responsive design built with React and Tailwind.',
-    image: 'https://placehold.co/600x360/903749/ffffff?text=ShopLens&font=syne',
+    image: 'https://placehold.co/600  x360/903749/ffffff?text=ShopLens&font=syne',
     tags: ['React', 'Tailwind CSS', 'Context API', 'Fake Store API'],
     category: 'React',
     live: 'https://shoplens.vercel.app',

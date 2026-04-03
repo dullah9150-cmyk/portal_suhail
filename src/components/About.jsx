@@ -46,7 +46,7 @@ export default function About() {
               My journey in web development started with curiosity and grew into a deep love for the craft. I'm constantly learning and keeping up with the latest trends in frontend technology to deliver modern, high-quality solutions.
             </p>
             <p className="about-text">
-              When I'm not coding, I enjoy exploring new UI design patterns, contributing to open source, and mentoring junior developers.
+              When I'm not coding, I enjoy exploring new UI design patterns, contributing to open source, and mentoring junior developers. I'm excited to continue growing my skills and creating impactful digital experiences that make a difference
             </p>
 
             <div className="about-highlights">
