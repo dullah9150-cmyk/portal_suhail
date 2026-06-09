@@ -7,7 +7,7 @@ import Education from './components/Education';
 import Certifications from './components/Certifications';
 import Contact from './components/Contact';
 import Footer from './components/Footer';
-import ProgressiveSection from './components/Progressivesection';
+import ProgressiveSection from './components/ProgressiveSection';
 
 import './styles/global.css';
 import 'antd/dist/reset.css';
